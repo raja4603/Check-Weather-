@@ -1,0 +1,106 @@
+.background {
+  background-image: url('bg.jpg'); /* Replace with your background image file */
+  background-size: cover;
+  background-position: center;
+  height: 98vh;
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: left;
+  align-self: start;
+  text-overflow: clip;
+  color: white;
+}
+.container {
+  width: 850px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5); /* Add a semi-transparent background to the container */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.weather-input {
+  margin-bottom: 20px;
+}
+
+.city-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #3e8e41;
+}
+
+.location-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.location-btn:hover {
+  background-color: #3e8e41;
+}
+
+.separator {
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.weather-data {
+  margin-top: 20px;
+}
+
+.current-weather {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.details {
+  margin-top: 20px;
+}
+
+#city-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#temperature, #wind, #humidity, #condition {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+svg {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.moon{
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
+}
+
+
